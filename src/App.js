@@ -9,8 +9,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/Reception_point" element={<Reception_point />} />
+          {/* <Route path="/" element={<Main />} /> */}
+          <Route path="/" element={<Reception_point />} />
           <Route path="/Category" element={<Category />} />
         </Routes>
       </BrowserRouter>

@@ -1,0 +1,19 @@
+/* .main_main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.ecology_div_p {
+    margin: 5vw;
+    max-width: 50vw;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    justify-self: start;
+    background-color: #87C879;
+}
+
+.ecology_div_p::before {
+} */
+

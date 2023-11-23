@@ -73,15 +73,15 @@ class Reception_point extends Component {
                   <option value="category1">Макулатура</option>
                   <option value="category2">Коричневые, зеленые и бесцветные стеклянные бутылки и банки</option>
                   <option value="category3">Пластиковые ящики ПНД</option>
-                  <option value="category1">Батарейки</option>
-                  <option value="category2">Канистры ПНД, ПВД</option>
-                  <option value="category3">Стретч-пленка ПВД</option>
-                  <option value="фывавыафа">Пленка ПВД</option>
-                  <option value="category1">Крышки ПНД, ПВД, ПП</option>
-                  <option value="category2">Белые ПЭТ-бутылки от напитков</option>
-                  <option value="category3">Пакеты фасовочные и пакеты-майки ПНД, ПВД</option>
-                  <option value="category1">ПЭТ-бутылки от напитков и растительного масла</option>
-                  <option value="category2">Алюминиевые банки</option>
+                  <option value="category4">Батарейки</option>
+                  <option value="category5">Канистры ПНД, ПВД</option>
+                  <option value="category6">Стретч-пленка ПВД</option>
+                  <option value="category7">Пленка ПВД</option>
+                  <option value="category8">Крышки ПНД, ПВД, ПП</option>
+                  <option value="category9">Белые ПЭТ-бутылки от напитков</option>
+                  <option value="category10">Пакеты фасовочные и пакеты-майки ПНД, ПВД</option>
+                  <option value="category11">ПЭТ-бутылки от напитков и растительного масла</option>
+                  <option value="category12">Алюминиевые банки</option>
                 </select>
               </label>
               <label>

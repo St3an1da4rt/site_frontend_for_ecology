@@ -34,7 +34,18 @@ class Category extends Component {
   handleSubmit = (event) => {
     alert('Отправлено: ' + JSON.stringify(this.state));
     event.preventDefault();
-	localStorage.
+
+	const formData = new FormData();
+    formData.append('name', this.state.name);
+    formData.append('rules', this.state.rules);
+    formData.append('prohibited', this.state.prohibited);
+    formData.append('image', this.state.image);
+
+    localStorage.setItem('formData', JSON.stringify(this.state));
+    fetch('http://localhost:3000/Category', {method: "POST", body: JSON.stringify(this.state), headers: {"content-type": "application/json"}})
+  // .then(response => response.json())
+  // .then(data => console.log(data))
+  // .catch(error => console.error(error));
   }
 
   render() {
