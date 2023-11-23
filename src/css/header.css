@@ -1,0 +1,90 @@
+:root {
+    --index: calc(1vw + 1vh);
+}
+
+.header {
+    z-index: 998;
+    position: absolute;
+    width: 40vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 0%;
+    }
+    to {
+        margin-right: 50%;
+        width: 40%;
+      }
+}
+
+.hrefs_header {
+    position: relative;
+    height: 100vh;
+    background-color: #050A00;
+    display: flex;
+    flex-direction: column;
+}
+
+.hrefs_header button {
+    margin: 10px;
+    width: 5vw;
+    border: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../img/icon_close.png);
+    background-size: cover;
+    height: 5vw;
+    font-size: calc(var(--index) * 2);
+    font-weight: 900;
+    display: flex;
+    align-self: end;
+}
+
+.hrefs_header a {
+    text-align: center;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: (--index);
+    color: #fff;
+    animation-duration: 2s;
+    animation-name: text-a;
+}
+
+@keyframes text-a{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hrefs_header a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.bar1, .bar2, .bar3 {
+    max-width: 35px;
+    width: 7vw; /*7*/
+    max-height: 5px;
+    height: 1vw; /*1*/
+    background-color: #333; /**/
+    margin: 6px 0; /*1*/
+    transition: 0.4s; /**/
+}
+
+.button_menu {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
